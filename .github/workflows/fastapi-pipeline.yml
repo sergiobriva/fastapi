@@ -30,4 +30,4 @@ jobs:
 
       - name: subir imagen
         run: |
-          docker build -t devco/fast-api-example:latest
+          docker build -t sergiobriva/fastapi:latest
