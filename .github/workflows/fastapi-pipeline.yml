@@ -30,4 +30,4 @@ jobs:
 
       - name: subir imagen
         run: |
-          docker build -t sergiobriva/fastapi:latest
+          docker build git@github.com:sergiobriva/fastapi.git#main
